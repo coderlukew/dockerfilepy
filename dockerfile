@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-#installed ubuntu 16.04 now running update
+#installed ubuntu latest now running update to prepare for python3 installation
 RUN apt-get update
-#updated ubuntu now installed python3
+#updated ubuntu now installing python3
 RUN apt-get install -y python3
